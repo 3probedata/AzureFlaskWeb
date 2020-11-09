@@ -319,21 +319,21 @@
     - $ sudo reboot
 
 ## 程式檔案解說
-1. 本教案資料夾內包含以下檔案及目錄:
-    app/ # 資料來源為darknet
-    static/ # 靜態資料夾
-        model_image/ # 預測圖片結果資料夾
-    templates/ # 網頁資料夾
-        show.html # 顯示圖片網頁
-        up.html # 上傳網頁
-    upload/ # 圖片上傳資料夾
-    venv/ # python虛擬環境, 執行本教案程式務必先進虛擬環境
-    image_upload.ipynb #主程式教案說明
-    image_upload.py # 主程式
-    requirements.txt # python套件安裝檔
-    readme.md # 教案說明檔
-    run.sh # 進入虛擬環境後，並執行主程式啟動 yolov4 + Web
-    run # 進入虛擬環境
+- 本教案資料夾內包含以下檔案及目錄:
+	- app/ # 資料來源為darknet
+    - static/ # 靜態資料夾
+        - model_image/ # 預測圖片結果資料夾
+    - templates/ # 網頁資料夾
+        - show.html # 顯示圖片網頁
+        - up.html # 上傳網頁
+    - upload/ # 圖片上傳資料夾
+    - venv/ # python虛擬環境, 執行本教案程式務必先進虛擬環境
+    - image_upload.ipynb #主程式教案說明
+    - image_upload.py # 主程式
+    - requirements.txt # python套件安裝檔
+    - readme.md # 教案說明檔
+    - run.sh # 進入虛擬環境後，並執行主程式啟動 yolov4 + Web
+    - run # 進入虛擬環境
     
 
 
