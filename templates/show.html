@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Show</title>
+  </head>
+  <body>
+    <h1>圖片人數預測模型結果</h1>
+    <form action="" enctype='multipart/form-data' method='POST'>
+        <input type ="button" onclick="history.back()" value="回到上一頁"></input>&nbsp;
+        <br>
+    </form>
+    <h1>閣下是：{{userinput}}！</h1>
+
+    <img src="{{ url_for('static', filename=imgfile, _t=val1) }}" width="640" height="480" alt="圖片人數估算"/>
+    <h3>預測結果：{{all_text}}</h3>
+    <h3>預測對應說明:依序(偵測物件,準確率%, (座標:x,y,weight,height))</h3>
+    <h3>{{detection}}！</h3>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <div>
+      <input type ="button" onclick="javascript:location.href='https://running-flow-estimate.herokuapp.com/'" value="跑者人流分析與預測" style="width:240px;height:40px;font-size:20px;border:5px blue double"></input>
+      <h1>圖片人數預測</h1>
+
+      <form method="post" action="/up_photo" enctype="multipart/form-data">
+      <input type="file" size="30" name="photo"/>
+      <br>
+      <a>提交者:</a>
+      <input type="text" class="txt_input" name="name" style="margin-top:15px;"/>
+      <input type="submit" value="提交" class="button-new" style="margin-top:15px;"/>
+      </form>
+      </br>
+      <a>A. 點選 '跑者人流分析與預測'進行跑者人流數據分析</a>
+      </br>
+      <a>B. 圖片人數預測說明：</a>
+      </br>
+      <a>1.選擇檔案</a>
+      </br>
+      <a>  2.填入提交者</a>
+      </br>
+      <a>  3.按'提交'後等待模型預測結果</a>
+    </div>
+  </body>
+</html>
